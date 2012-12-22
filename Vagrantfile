@@ -20,10 +20,10 @@ require './settings/current.rb'
 ##
 # import vm settings
 #
-require './servers/unit_test.rb'
+require './servers/template.rb'
 
 Vagrant::Config.run do |config|
 
-	# php-unit server
-	config.vm.define(:unit_test, &$unit_test)
+	# template server
+	config.vm.define(:template, &$template)
 end

@@ -1,4 +1,4 @@
-$unit_test = Proc.new{|conf|
+$template = Proc.new{|conf|
 	conf.vm.box = $boxes[:ubuntu]['name']
 	conf.vm.box_url = $boxes[:ubuntu]['url']
 
