@@ -2,20 +2,13 @@ $template = Proc.new{|conf|
 	conf.vm.box = $boxes[:ubuntu]['name']
 	conf.vm.box_url = $boxes[:ubuntu]['url']
 
-	conf.vm.network :hostonly, "192.168.100.10"
-	conf.vm.forward_port(80, 8080)
+	conf.vm.network :private_network, ip: "192.168.100.10"
+	conf.vm.network :forwarded_port, guest:80, host:8080
 	
 	# share folder
-	conf.vm.share_folder(
-		"target_app",
-		"/mnt/target_app",
-		$share_folders[:target_app],
-		:owner => 'vagrant', :group => 'vagrant'
-	) 
-	conf.vm.share_folder(
-		"test_app",
-		"/mnt/test_app",
+	conf.vm.synced_folder(
 		$share_folders[:test_app],
+		"/mnt/test_app",
 		:owner => 'vagrant', :group => 'vagrant'
 	) 
 	

@@ -22,7 +22,7 @@ require './settings/current.rb'
 #
 require './servers/template.rb'
 
-Vagrant::Config.run do |config|
+Vagrant.configure("2") do |config|
 
 	# template server
 	config.vm.define(:template, &$template)
