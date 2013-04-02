@@ -1,6 +1,10 @@
+##
+# import personal setting
+#
+require './settings/current.rb'
+
+
 $boxes = {
-	:ubuntu	=> {
-		'name' =>	'ubuntu12.04_mini',
-		'url' =>	'http://files.vagrantup.com/precise64.box'
-	}
+	:precise64 => 'precise64',
+	:aws       => 'awsdummy'
 }
