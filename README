@@ -1,4 +1,6 @@
-= [project name] =
+-*- markdown -*-
+
+# [project name] 
 ----
 Version 0.01
 Release date: Show commit log.
@@ -6,43 +8,43 @@ Release date: Show commit log.
 Project state:
 beta
 ----
-= Get started! =
+# Get started!
 
-== Add precise64 box ==
+## Add precise64 box 
 
-{{{
+```
 #!bash
 
 $ vagrant box add precise64 http://files.vagrantup.com/precise64.box
 
-}}}
+```
 
-== Vagrant up ==
+## Vagrant up 
 
-{{{
+```
 #!bash
 
 $ vagrant up
 
-}}}
+```
 
 ----
-= Credits =
+# Credits
 
 ----
-= Project description =
+# Project description
 
 ----
-= Dependencies =
+# Dependencies
 
 ----
-= Documentation =
+# Documentation
 
 ----
-= Installation instructions =
+# Installation instructions
 
 ----
-= Additional Notes =
+# Additional Notes
 
 
 
