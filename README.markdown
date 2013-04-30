@@ -1,5 +1,3 @@
--*- markdown -*-
-
 # [project name] 
 ----
 Version 0.01
