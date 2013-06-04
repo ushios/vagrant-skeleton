@@ -13,9 +13,14 @@ beta
 ```
 #!bash
 
-$ vagrant box add precise64 http://files.vagrantup.com/precise64.box
+$ vagrant box add precise64 http://files.vagrantup.com/precise64.box # for virtualbox provider
+$ vagrant box add precise64 http://files.vagrantup.com/precise64_vmware.box # for vmware fusion provider
 
 ```
+
+### Other boxes
+
+- http://www.vagrantbox.es/
 
 ## Vagrant up 
 
