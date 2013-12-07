@@ -13,8 +13,8 @@ beta
 ```
 #!bash
 
-$ vagrant box add precise64 http://files.vagrantup.com/precise64.box # for virtualbox provider
-$ vagrant box add precise64 http://files.vagrantup.com/precise64_vmware.box # for vmware fusion provider
+$ vagrant box add saucy64 http://cloud-images.ubuntu.com/vagrant/saucy/current/saucy-server-cloudimg-amd64-vagrant-disk1.box # for vir.boxtualbox provider
+$ vagrant box add saucy64 http://brennovich.s3.amazonaws.com/saucy64_vmware_fusion.box # for vmware fusion provider
 
 ```
 

@@ -5,7 +5,7 @@ require './settings/current.rb'
 
 
 $boxes = {
-	:raring64 => 'raring64',
+	:saucy64 => 'saucy64',
 	:precise64 => 'precise64',
 	:aws       => 'awsdummy'
 }
