@@ -42,8 +42,11 @@ This is vagrant-skelton project.
 Dependencies
 ------
 
-- [VirtualBox](https://www.virtualbox.org/) or [VMWare fusion](https://www.vmware.com/jp/products/fusion/)
-- [Vagrant](http://www.vagrantup.com/)
+- Required
+    - [VirtualBox](https://www.virtualbox.org/)
+    - [Vagrant](http://www.vagrantup.com/)
+- Recommended
+    - [VMWare fusion](https://www.vmware.com/jp/products/fusion/)
 
 Documentation
 ------
