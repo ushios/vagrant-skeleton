@@ -1,6 +1,6 @@
 .vagrant
 *.swp
 
-settings
+settings/*
 
 !settings/sample.rb
