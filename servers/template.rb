@@ -1,5 +1,5 @@
-$template = Proc.new{|conf|
-	conf.vm.box = $boxes[:saucy64]
+server = Proc.new{|conf|
+	conf.vm.box = $boxes[:precise64]
 
 	conf.vm.network :private_network, ip: "192.168.100.10"
 	conf.vm.network :forwarded_port, guest:80, host:8080
@@ -25,3 +25,6 @@ $template = Proc.new{|conf|
 	end
 }
 
+# Do not delete here!!
+var_name = File.basename(__FILE__).sub(/\.rb/, "")
+eval("$#{var_name} = server")

@@ -1,5 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
+require 'pathname'
+
 
 ##
 # chef settings
@@ -20,7 +22,9 @@ require './settings/current.rb'
 ##
 # import vm settings
 #
-require './servers/template.rb'
+Dir::glob("./servers/*.rb").each do |f|
+	require "#{f}"
+end
 
 Vagrant.configure("2") do |config|
 

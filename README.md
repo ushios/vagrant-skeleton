@@ -30,23 +30,49 @@ Get started!
     $ cd path/to/clone
     $ vagrant up [--provider=vmware_fusion]
 
-----
-# Credits
 
-----
-# Project description
+Credits
+------
 
-----
-# Dependencies
+Project description
+------
+
+This is vagrant-skelton project.
+
+Dependencies
+------
 
 - [VirtualBox](https://www.virtualbox.org/) or [VMWare fusion](https://www.vmware.com/jp/products/fusion/)
 - [Vagrant](http://www.vagrantup.com/)
 
-----
-# Documentation
+Documentation
+------
 
-----
-# Additional Notes
+### Add a new server.
+
+#### add server file.
+
+    $ cp servers/template.rb servers/{$filename}.rb
+
+#### Define vm.
+
+    $ vi Vagrantfile
+
+and add define line.
+
+    Vagrant.configure("2") do |config|
+        ...
+	    
+	    config.vm.define(:your_server_name, &${$filename})
+	    
+	    ...
+    end
+    
+    
+
+
+Additional Notes
+------
 
 
 
