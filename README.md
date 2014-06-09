@@ -15,12 +15,12 @@ Get started!
 #### Add precise64 and saucy64 boxes
 
     # 14.04
-    $ vagrant box add precise64 https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vbox.box
-    $ vagrant box add precise64 https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vmwarefusion.box
+    $ vagrant box add precise64_14_04 https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vbox.box
+    $ vagrant box add precise64_14_04 https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vmwarefusion.box
     
     # 12.04
-    $ vagrant box add precise64 http://files.vagrantup.com/precise64.box # for virtualbox provider
-    $ vagrant box add precise64 http://files.vagrantup.com/precise64_vmware.box # for vmware fusion provider
+    $ vagrant box add precise64_12_04 http://files.vagrantup.com/precise64.box # for virtualbox provider
+    $ vagrant box add precise64_12_04 http://files.vagrantup.com/precise64_vmware.box # for vmware fusion provider
 
 
 ##### Other boxes
