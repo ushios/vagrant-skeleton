@@ -14,8 +14,11 @@ Get started!
 
 #### Add precise64 and saucy64 boxes
 
-    $ vagrant box add saucy64 http://cloud-images.ubuntu.com/vagrant/saucy/current/saucy-server-cloudimg-amd64-vagrant-disk1.box # for virtualbox provider
-    $ vagrant box add saucy64 http://brennovich.s3.amazonaws.com/saucy64_vmware_fusion.box # for vmware fusion provider
+    # 14.04
+    $ vagrant box add precise64 https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vbox.box
+    $ vagrant box add precise64 https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vmwarefusion.box
+    
+    # 12.04
     $ vagrant box add precise64 http://files.vagrantup.com/precise64.box # for virtualbox provider
     $ vagrant box add precise64 http://files.vagrantup.com/precise64_vmware.box # for vmware fusion provider
 
