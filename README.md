@@ -12,6 +12,9 @@ Project state: beta
 Get started!
 ------
 
+#### Add vagrant omunibus
+
+    $ vagrant plugin install vagrant-omnibus
 
 #### Add precise64 boxes
 
