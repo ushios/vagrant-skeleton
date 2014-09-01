@@ -13,7 +13,7 @@ Get started!
 ------
 
 #### Add vagrant omunibus
-
+    $ xcode-select --install
     $ vagrant plugin install vagrant-omnibus
 
 #### Add precise64 boxes
